@@ -1,0 +1,31 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    background-color: black;
+}
+.navbar-items{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar-items a{
+    color: white;
+    transition: 0.4s;
+}
+.navbar-items a:hover{
+    background: -webkit-linear-gradient(#36D1DC, #c51da6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-items .btn-a{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 0.4rem 1rem;
+}

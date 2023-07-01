@@ -1,0 +1,313 @@
+.landing-section{
+    width: 100%;
+    height: 100vh;
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.landing-section-left .btn-a{
+    margin-top: 2rem;
+}
+.landing-section h1 sup img{
+    width: 60px;
+    transform: translateX(-38px) rotate(30deg);
+}
+.landing-section-left p{
+    margin-bottom: 3rem;
+    max-width: 600px;
+}
+.landing-section-right img{
+    width: 360px;
+    transform: rotate(30deg);
+}
+.our-features{
+    background-color: white;
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.our-features h2{
+    text-align: center;
+}
+.bullets{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+}
+.particle-section {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as per your requirement */
+  }
+  
+.analysis-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.analysis-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.analysis-section-left p{
+    max-width: 500px;
+    font-size: 12px;
+}
+.analysis-section .gradient-btn{
+    max-width: 150px;
+    text-align: center;
+    padding: 0.5rem 1.4rem;
+    border-radius: 4px;
+}
+.analysis-section-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.analysis-section img{
+    border-radius: 8px;
+}
+.small-img{
+    width: 200px;
+}
+.big-img{
+    width: 240px;
+}
+.about-us{
+    width: 100%;
+    background-color: black;
+    padding: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.about-us-right img{
+    height: 300px;
+}
+.about-us p{
+    font-size: 12px;
+    max-width: 600px;
+}
+.explore-feature{
+    width: 100%;
+    padding: 5rem 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.explore-feature-card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-card{
+    width: 200px;
+    height: 250px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  background: -webkit-linear-gradient(#36D1DC, #c51da6);
+  padding: 1.5rem 1.5rem;
+  color: white;
+}
+.feature-card p{
+    font-size: 10px;
+    text-align: center;
+}
+.feature-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.feature-card:nth-child(2){
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+    transform: scale(1.2);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.qr-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.qr-box{
+    width: 96%;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    flex-wrap: wrap;
+}
+.qr-box-left h4{
+    margin: 2rem 0;
+}
+.qr-box h1{
+    color: white;
+}
+.qr-box-left p{
+    color: white;
+    max-width: 500px;
+    font-size: 12px;
+}
+.qr-box-right img{
+    width: 200px;
+}
+.privacy-section{
+    width: 100%;
+    background-color: black;
+    padding: 5rem 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    color: white;
+}
+.privacy-section img{
+    width: 200px;
+}
+.privacy-section-text p{
+    max-width: 700px;
+}
+.privacy-section-text span{
+    background: -webkit-linear-gradient(#36D1DC, #c51da6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width:1100px) {
+    .landing-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+    .landing-section-left{
+        text-align: center;
+    }
+    .landing-section-right img{
+        width: 200px;
+    }
+    .analysis-section{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .analysis-section-left{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .analysis-section-left p{
+        max-width: 600px;
+    }
+    .our-features{
+        gap: 4rem;
+    }
+    .small-img{
+        width: 170px;
+    }
+    .big-img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:850px) {
+    .qr-box{
+        height: auto;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .qr-box-left{
+        text-align: center;
+    }
+    .about-us{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .privacy-section{
+        flex-direction: column;
+    }
+    .privacy-section-text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:630px) {
+    .explore-feature-card-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .feature-card:nth-child(2){
+        transform: scale(1.4);
+    }
+    
+}
+@media screen and (max-width:500px) {
+    html{
+        font-size: 90%;
+    }
+    .small-img{
+        width: 120px;
+    }
+    .big-img{
+        width: 170px;
+    }
+    .bullets{
+        grid-template-columns: repeat(1,1fr);
+        text-align: left;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .landing-section-left h1 img{
+        display: none;
+    }
+}
