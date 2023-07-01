@@ -149,7 +149,7 @@ export default function LandingPage() {
         {/* <a href="https://drive.google.com/drive/folders/1uD096cJPEb8op8prKjgcjT-xSBVaWJeD?usp=sharing" target='blank' className="btn-a gradient-btn">Check My Work</a> */}
         </div>
         <div className="qr-box-right">
-          {/* <img src={qr} alt="" /> */}
+{/*         <a href="https://drive.google.com/drive/folders/1uD096cJPEb8op8prKjgcjT-xSBVaWJeD?usp=sharing" target='blank' className="btn-a gradient-btn">Check My Work</a> */}
         </div>
       </div>
     </div>
