@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NewGen/static/css/main.7821090d.css",
-    "main.js": "/NewGen/static/js/main.d4be2bf1.js",
+    "main.js": "/NewGen/static/js/main.5585a004.js",
     "static/js/787.cda612ba.chunk.js": "/NewGen/static/js/787.cda612ba.chunk.js",
     "static/media/butterfly2.svg": "/NewGen/static/media/butterfly2.1e458d59acce7495b818d83bec7e23b2.svg",
     "static/media/neon.svg": "/NewGen/static/media/neon.f3c9e15398c38d6d6f5db07ee431fad8.svg",
@@ -22,11 +22,11 @@
     "static/media/apple.webp": "/NewGen/static/media/apple.9098c1041d43b7c2e375.webp",
     "index.html": "/NewGen/index.html",
     "main.7821090d.css.map": "/NewGen/static/css/main.7821090d.css.map",
-    "main.d4be2bf1.js.map": "/NewGen/static/js/main.d4be2bf1.js.map",
+    "main.5585a004.js.map": "/NewGen/static/js/main.5585a004.js.map",
     "787.cda612ba.chunk.js.map": "/NewGen/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7821090d.css",
-    "static/js/main.d4be2bf1.js"
+    "static/js/main.5585a004.js"
   ]
 }
