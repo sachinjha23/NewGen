@@ -145,10 +145,10 @@ export default function LandingPage() {
         <br/>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eligendi aliquid quae maiores nulla provident labore distinctio similique est recusandae!</p>
         <h4 className='gradient-text'>Go To Link</h4>
-        <a href="https://drive.google.com/drive/folders/1uD096cJPEb8op8prKjgcjT-xSBVaWJeD?usp=sharing" target='blank' className="btn-a gradient-btn">Check My Work</a>
+{/*         <a href="https://drive.google.com/drive/folders/1uD096cJPEb8op8prKjgcjT-xSBVaWJeD?usp=sharing" target='blank' className="btn-a gradient-btn">Check My Work</a> */}
         </div>
         <div className="qr-box-right">
-          <img src={qr} alt="" />
+{/*           <img src={qr} alt="" /> */}
         </div>
       </div>
     </div>
